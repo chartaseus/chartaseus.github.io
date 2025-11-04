@@ -1,6 +1,5 @@
 ---
-title: Welcome to Quartz
+title: chartaseus
 ---
 
-This is a blank Quartz installation.
-See the [documentation](https://quartz.jzhao.xyz) for how to get started.
+This is where I write about things I learn while doing Computer.
