@@ -8,7 +8,9 @@ tags:
   - meta
   - quartz
 draft: false
-date: 2025-11-04
+published: 2025-11-04
+modified:
+  - 2025-11-05T16:38:56+07:00
 ---
 
 # Heading 1
