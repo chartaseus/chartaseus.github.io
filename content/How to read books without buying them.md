@@ -3,6 +3,7 @@ draft: false
 published: 2016-07-25
 modified:
   - 2025-11-05T16:23:10+07:00
+  - 2025-11-06T03:58:13+07:00
 tags:
   - no-code
   - tutorial
@@ -18,7 +19,7 @@ So I’m going to share a good news for those of you who probably haven’t foun
 Here’s two ways that will probably help:
 
 1. If the book you want is old enough to be released in the public domain (meaning, its copyright has expired), it’s probably available for free in a digital format. And my go-to site for this kind of book is [gutenberg.org](https://href.li/?http://gutenberg.org). If you’re looking for classics, they’re likely available in this site. You can download them for free in plain text, PDF, or EPUB format.
-2. Did you know you can borrow e-books? I didn’t until two years ago. Try browsing [openlibrary.org](https://href.li/?http://openlibrary.org). Maybe the books you’re looking for are available there to borrow. After creating an account and borrowing e-books—two at a time, you can then read them online, or offline in PDF or EPUB format by installing Adobe Digital Editions in your computer or a DRM (Digital Right Management)-supporting reader in your smartphone. Here’s my tutorial on [how to read your borrowed e-books offline](https://fatiya.tech.blog/2018/12/03/read-borrowed-books-offline/).
+2. Did you know you can borrow e-books? I didn’t until two years ago. Try browsing [openlibrary.org](https://href.li/?http://openlibrary.org). Maybe the books you’re looking for are available there to borrow. After creating an account and borrowing e-books—two at a time, you can then read them online, or offline in PDF or EPUB format by installing Adobe Digital Editions in your computer or a DRM (Digital Right Management)-supporting reader in your smartphone. Here’s my tutorial on [[Read your borrowed e-books offline|how to read your borrowed e-books offline]].
 
 So, there you go. Have fun browsing those two sites and may you find the books you’ve been looking to read!
 
