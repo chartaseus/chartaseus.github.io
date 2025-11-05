@@ -9,6 +9,6 @@ private/
 .replit
 replit.nix
 #content/.obsidian/plugins/*/data.json
-.obsidian/workspace.json
-.obsidian/workspace-mobile.json
+content/.obsidian/workspace-mobile.json
 .trash/
+/content/.obsidian/workspace.json
