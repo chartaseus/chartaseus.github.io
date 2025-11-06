@@ -1,6 +1,6 @@
 ---
 title: Heading 1
-description: A Lirem Ipsum page to test features, styles, and formatting
+description: A Lorem Ipsum page to test features, styles, and formatting
 permalink: lorem
 aliases:
   - lorem ipsum
