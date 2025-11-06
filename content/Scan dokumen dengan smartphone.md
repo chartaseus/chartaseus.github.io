@@ -1,5 +1,5 @@
 ---
-draft: true
+draft: false
 published: 2019-02-14
 modified:
   - 2025-11-06T14:25:40+07:00
@@ -26,7 +26,7 @@ Di layar berikutnya, akan muncul hasil pindaian dokumenmu. Aplikasi sudah memang
 
 Di menu setelan yang bisa ditemukan dengan menekan ikon titik tiga di kanan atas aplikasi, kamu bisa mengatur ukuran dokumen, orientasi, dan memilih koreksi warna yang paling cocok untuk dokumenmu.
 
-Untuk menambah halaman dalam file yang sama, tekan ikon **+** di bawah pratinjau dokumen. Kamu akan bisa memotret halaman baru dan mengeditnya. Kamu juga bisa menghapus halaman yang tidak diinginkan. Jadi, jepret-jepret saja sampai dapat yang bagus. Tidak masalah. 🙂  
+Untuk menambah halaman dalam file yang sama, tekan ikon **+** di bawah pratinjau dokumen. Kamu akan bisa memotret halaman baru dan mengeditnya. Kamu juga bisa menghapus halaman yang tidak diinginkan. Jadi, jepret-jepret saja sampai dapat yang bagus. Tidak masalah. 🙂
 
 Kalau semua halaman sudah sesuai dengan tampilan yang diinginkan, tekan ikon centang dan dokumen akan tersimpan di Google Drive dalam format PDF. File ini dapat diunduh atau dikirim sesuai kebutuhan.
 

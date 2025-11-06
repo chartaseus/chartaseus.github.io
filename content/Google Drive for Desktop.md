@@ -1,5 +1,5 @@
 ---
-draft: true
+draft: false
 published: 2018-12-07
 modified:
   - 2025-11-06T15:06:11+07:00
@@ -23,7 +23,7 @@ Tapi ketika mendengar, “Sekarang kan ada _cloud storage_. Kalau disimpan offli
 
 Sekarang tidak perlu khawatir lupa _back up_ dan sebagainya, karena ada cara supaya kamu bisa mengakses file-file lewat File Explorer di komputer sama seperti cara mengakses file-file lokalmu, tapi bonusnya, file tersebut adalah file yang sama dengan file yang tersimpan di Google Drive. Google Drive for Desktop adalah aplikasi yang memberi kemudahan ini.
 
-==_(Google Drive for Desktop hanya tersedia untuk Windows 10 atau yang lebih baru, dan macOS Catalina 10.15.7 atau yang lebih baru. Tutorial ini dibuat untuk pengguna Windows_==_==.)==_
+_==(Google Drive for Desktop hanya tersedia untuk Windows 10 atau yang lebih baru, dan macOS Catalina 10.15.7 atau yang lebih baru. Tutorial ini dibuat untuk pengguna Windows.)==_
 
 ### Menginstal Google Drive for Desktop
 
@@ -96,8 +96,6 @@ Jika tidak selalu memiliki akses internet, kamu bisa menyimpan file-file yang se
 	<img src="./files/file-options-1-1.png" alt="">
 	<figcaption>Agar file dapat diakses tanpa koneksi internet: klik kanan pada file → <em>Offline access</em> → <em>Available offline</em></figcaption>
 </figure>
-
-Agar file dapat diakses tanpa koneksi internet: klik kanan pada file → _Offline access_ → _Available offline_
 
 Dengan menginstal Google Drive for Desktop, kamu tidak perlu membuka Google Drive di web browser lalu mengupload file setiap kali selesai mengedit.
 
