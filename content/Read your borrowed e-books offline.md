@@ -7,6 +7,7 @@ modified:
 tags:
   - no-code
   - tutorial
+description: You have successfully borrow the ebook you want. Now what?
 ---
 # Read your borrowed e-books offline
 
