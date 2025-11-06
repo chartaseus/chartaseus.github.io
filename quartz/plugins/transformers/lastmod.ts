@@ -16,6 +16,10 @@ const defaultOptions: Options = {
 const iso8601DateOnlyRegex = /^\d{4}-\d{2}-\d{2}$/
 
 function coerceDate(fp: string, d: any): Date {
+  // `d` can be object because I use auto update modified date plugin and chose to record all modified dates in list form in the frontmatter, which then gets interpreted here as an array instead of string
+  if (typeof d === "object") {
+    d = d.slice(0, 1)
+  }
   // check ISO8601 date-only format
   // we treat this one as local midnight as the normal
   // js date ctor treats YYYY-MM-DD as UTC midnight
