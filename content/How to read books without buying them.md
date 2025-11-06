@@ -2,13 +2,13 @@
 draft: false
 published: 2016-07-25
 modified:
+  - 2025-11-06T04:49:21+07:00
   - 2025-11-05T16:23:10+07:00
-  - 2025-11-06T03:58:13+07:00
 tags:
   - no-code
   - tutorial
 ---
-# [How to read books without buying them](https://fatiya.tech.blog/2016/07/25/how-to-read-books-without-buying-them/)
+# How to read books without buying them
 
 Have you ever find yourself in a situation where you need (or want) to read a book, but it’s not available in your local bookstore, your local library, or you live in a place where you’re prone to shipping problems when shopping from online bookstores? Well, e-book stores already have very broad collections today. Even the local publishers in my country have started to publish their books in digital format. So most book availability problems may have been solved at this point.
 
@@ -22,5 +22,7 @@ Here’s two ways that will probably help:
 2. Did you know you can borrow e-books? I didn’t until two years ago. Try browsing [openlibrary.org](https://href.li/?http://openlibrary.org). Maybe the books you’re looking for are available there to borrow. After creating an account and borrowing e-books—two at a time, you can then read them online, or offline in PDF or EPUB format by installing Adobe Digital Editions in your computer or a DRM (Digital Right Management)-supporting reader in your smartphone. Here’s my tutorial on [[Read your borrowed e-books offline|how to read your borrowed e-books offline]].
 
 So, there you go. Have fun browsing those two sites and may you find the books you’ve been looking to read!
+
+فتي
 
 Posted on [July 25, 2016](https://fatiya.tech.blog/2016/07/25/how-to-read-books-without-buying-them/)
