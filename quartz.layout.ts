@@ -1,11 +1,15 @@
 import { PageLayout, SharedLayout } from "./quartz/cfg"
 import * as Component from "./quartz/components"
+import { QuartzPluginData } from "./quartz/plugins/vfile"
 
 // components shared across all pages
 export const sharedPageComponents: SharedLayout = {
   head: Component.Head(),
   header: [],
-  afterBody: [],
+  afterBody: [Component.RecentNotes({
+    limit: 3,
+    filter: (f:QuartzPluginData) => f.filePath != "content/index.md"
+  })],
   footer: Component.Footer({
     links: {
       GitHub: "https://github.com/chartaseus/chartaseus.github.io",
