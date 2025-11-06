@@ -53,11 +53,19 @@ export default ((userOpts?: Partial<Options>) => {
                       </a>
                     </h3>
                   </div>
-                  {page.dates && (
+                  {
+                    page.dates && (
                     <p class="meta">
                       <Date date={getDate(cfg, page)!} locale={cfg.locale} />
                     </p>
-                  )}
+                  )
+                  // page.dates && (
+                  //   <p class="meta">
+                  //     <Date date={getDate(cfg, page)!} locale={cfg.locale} />
+                  //     Published: <Date date={page.dates.published} locale={cfg.locale} />, Modified: <Date date={page.dates.modified} locale={cfg.locale} />
+                  //   </p>
+                  // )
+                  }
                   {opts.showTags && (
                     <ul class="tags">
                       {tags.map((tag) => (
