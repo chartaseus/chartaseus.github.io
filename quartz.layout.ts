@@ -12,7 +12,7 @@ export const sharedPageComponents: SharedLayout = {
   })],
   footer: Component.Footer({
     links: {
-      GitHub: "https://github.com/chartaseus/chartaseus.github.io",
+      "Source code": "https://github.com/chartaseus/chartaseus.github.io",
       // "Discord Community": "https://discord.gg/cRFFHYye7t",
     },
   }),
@@ -42,12 +42,23 @@ export const defaultContentPageLayout: PageLayout = {
         { Component: Component.ReaderMode() },
       ],
     }),
-    Component.Explorer(),
+    Component.DesktopOnly(Component.TableOfContents()),
   ],
   right: [
-    Component.Graph(),
-    Component.DesktopOnly(Component.TableOfContents()),
     Component.Backlinks(),
+    Component.Explorer({
+      title: "All Notes",
+      folderDefaultState: "open",
+      filterFn: (node) => {
+          const omit = new Set(["index", "heading 1"])
+
+          // can also use node.slug or by anything on node.data
+          // note that node.data is only present for files that exist on disk
+          // (e.g. implicit folder nodes that have no associated index.md)
+          return !omit.has(node.displayName.toLowerCase())
+        },
+    }),
+    Component.Graph(),
   ],
 }
 
