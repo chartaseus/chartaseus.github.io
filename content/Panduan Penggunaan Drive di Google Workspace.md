@@ -52,7 +52,7 @@ Berikut adalah perbedaan file-file Google Docs dan Microsoft Office:
 
 | **Microsoft Office** | **Google Docs** |
 |--|--|
-| ![[Untitled 1.webp\|250] | ![[Untitled 2.webp\|250]] |
+| ![[Untitled 1.webp\|250]] | ![[Untitled 2.webp\|250]] |
 | Secara default, file Microsoft Office jika diupload ke Google Drive akan mempertahankan ekstensi (.docx, .xlsx, .pptx) dalam nama filenya, contoh: *Panduan.docx* atau *Perhitungan.xlsx* | File-file Google Docs bisa langsung dibaca dan diedit di web browser oleh siapa saja yang memiliki akses. |
 
 %%
