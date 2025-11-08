@@ -1,3 +1,4 @@
 {
-  "catppuccin-tag-styles@@ctp-tag-pill": true
+  "catppuccin-tag-styles@@ctp-tag-pill": true,
+  "catppuccin-font-styles@@ctp-italic": "var(--ctp-peach)"
 }
