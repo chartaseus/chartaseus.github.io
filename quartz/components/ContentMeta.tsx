@@ -34,7 +34,7 @@ export default ((opts?: Partial<ContentMetaOptions>) => {
         // segments.push(<Date date={getDate(cfg, fileData)!} locale={cfg.locale} />)
         segments.push(
           <>
-            Published: <Date date={fileData.dates.published} locale={cfg.locale} /> Modified:{" "}
+            🌱 Planted: <Date date={fileData.dates.published ?? fileData.dates.created} locale={cfg.locale} /> 🪴 Last tended:{" "}
             <Date date={fileData.dates.modified} locale={cfg.locale} />
           </>,
         )
