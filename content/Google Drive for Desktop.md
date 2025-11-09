@@ -3,7 +3,7 @@ draft: false
 published: 2018-12-07
 modified:
   - 2025-11-06T15:06:11+07:00
-title: Backup file tugas kuliah atau pekerjaan secara otomatis
+title: Backup file tugas kuliah atau pekerjaan secara otomatis
 description: Tidak perlu khawatir lupa backup dan sebagainya, karena ada cara supaya kamu bisa mengakses file-file Google Drive langsung lewat file explorer di komputermu.
 permalink:
 tags:
@@ -11,7 +11,6 @@ tags:
   - no-code
 publish: false
 ---
-# Backup file tugas kuliah atau pekerjaan secara otomatis
 
 _Edit 1 September 2023 – Instruksi dan screenshot diperbarui sesuai dengan versi Google Drive terbaru._
 

@@ -8,7 +8,6 @@ tags:
   - no-code
   - tutorial
 ---
-# How to read books without buying them
 
 Have you ever find yourself in a situation where you need (or want) to read a book, but it’s not available in your local bookstore, your local library, or you live in a place where you’re prone to shipping problems when shopping from online bookstores? Well, e-book stores already have very broad collections today. Even the local publishers in my country have started to publish their books in digital format. So most book availability problems may have been solved at this point.
 

@@ -13,9 +13,9 @@ modified:
   - 2025-11-05T18:39:47+07:00
 ---
 
-# Heading 1
-
 this is a page to test all the features(?), styles, and formatting I’m using throughout the site. inspired by [Gwern.net](https://gwern.net/lorem). most examples are copied from Obsidian sandbox vault.
+
+[I removed heading 1 because there's supposed to be only one `<h1>` in a page and it's already covered by Quartz]
 
 ## This is a heading 2
 
