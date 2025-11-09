@@ -2,13 +2,13 @@
 draft: false
 published: 2016-07-25
 modified:
+  - 2025-11-09T19:25:04+07:00
   - 2025-11-06T04:49:21+07:00
   - 2025-11-05T16:23:10+07:00
 tags:
   - no-code
-  - tutorial
+  - tips-and-trick
 ---
-
 Have you ever find yourself in a situation where you need (or want) to read a book, but it’s not available in your local bookstore, your local library, or you live in a place where you’re prone to shipping problems when shopping from online bookstores? Well, e-book stores already have very broad collections today. Even the local publishers in my country have started to publish their books in digital format. So most book availability problems may have been solved at this point.
 
 But what if you simply don’t have enough allowance at the moment to buy a book? I have this problem so often that resourcefulness has become my well-established skill.

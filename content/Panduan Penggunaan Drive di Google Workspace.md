@@ -2,6 +2,7 @@
 draft: false
 published: 2021-09-28
 modified:
+  - 2025-11-09T19:35:10+07:00
   - 2025-11-08T08:32:44+07:00
 title: Mengelola file Office dan Google Docs di Google Drive
 description: Hal-hal yang perlu diketahui tentang Google Drive untuk keperluan pribadi maupun mempermudah kolaborasi dengan tim di Google Workspace
@@ -11,7 +12,6 @@ tags:
   - no-code
 publish: false
 ---
-
 ## Akses Google Drive
 
 Buka [drive.google.com](http://drive.google.com) lalu login dengan akun Google, email kerja, atau SSO perusahaan.
@@ -79,7 +79,7 @@ File-file Google Docs bisa langsung dibaca dan diedit di web browser oleh siapa 
 
 Ada tiga cara untuk mengedit file Microsoft Office yang tersimpan dalam Google Drive agar file tersebut selalu tersimpan sebagai versi terbaru.
 
-[[#Fitur Version Management|Version Management]] ◆ [[#Google Drive for Desktop]] ◆ [[#Cara mengelola file Google Docs|Google Docs]]
+[[#Fitur Version Management|Version Management]] ▪ [[#Google Drive for Desktop]] ▪ [[#Cara mengelola file Google Docs|Google Docs]]
 
 #### Fitur Version Management
 
