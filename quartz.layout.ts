@@ -6,10 +6,15 @@ import { QuartzPluginData } from "./quartz/plugins/vfile"
 export const sharedPageComponents: SharedLayout = {
   head: Component.Head(),
   header: [],
-  afterBody: [Component.RecentNotes({
-    limit: 3,
-    filter: (f:QuartzPluginData) => f.filePath != "content/index.md"
-  })],
+  afterBody: [
+    Component.RecentNotes({
+      limit: 3,
+      filter: (f: QuartzPluginData) => {
+        const omit = new Set(["content/index.md", "content/heading 1.md"])
+        return !omit.has(f.filePath?.toLowerCase() ?? "")
+      },
+    }),
+  ],
   footer: Component.Footer({
     links: {
       "Source code": "https://github.com/chartaseus/chartaseus.github.io",
@@ -42,22 +47,21 @@ export const defaultContentPageLayout: PageLayout = {
         { Component: Component.ReaderMode() },
       ],
     }),
-    Component.DesktopOnly(Component.TableOfContents()),
-  ],
-  right: [
-    Component.Backlinks(),
     Component.Explorer({
       title: "All Notes",
       folderDefaultState: "open",
       filterFn: (node) => {
-          const omit = new Set(["index", "heading 1"])
-
-          // can also use node.slug or by anything on node.data
-          // note that node.data is only present for files that exist on disk
-          // (e.g. implicit folder nodes that have no associated index.md)
-          return !omit.has(node.displayName.toLowerCase())
-        },
+        const omit = new Set(["index", "heading-1"]) // filePath (lowercase & + extension)
+        // can also use node.slug or by anything on node.data
+        // note that node.data is only present for files that exist on disk
+        // (e.g. implicit folder nodes that have no associated index.md)
+        return !omit.has(node.data?.slug.toLowerCase() ?? "")
+      },
     }),
+  ],
+  right: [
+    Component.DesktopOnly(Component.TableOfContents()),
+    Component.Backlinks(),
     Component.Graph(),
   ],
 }
