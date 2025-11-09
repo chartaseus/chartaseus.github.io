@@ -2,6 +2,7 @@
 draft: false
 published: 2019-02-14
 modified:
+  - 2025-11-09T19:40:52+07:00
   - 2025-11-06T14:25:40+07:00
 title: Scan dokumen dengan smartphone
 description: Kalau kamera smartphonemu bisa memotret tulisan dengan jelas, berarti smartphonemu bisa digunakan untuk memindai dokumen dengan kualitas tak kalah dari scanner pada umumnya.
@@ -11,7 +12,6 @@ tags:
   - no-code
 publish: false
 ---
-
 Tahu nggak? Kamera smartphone bisa digunakan untuk memindai dokumen. Kalau kamera smartphonemu bisa memotret tulisan dengan jelas, tidak perlu khawatir, kualitas pindaiannya tidak akan kurang dari hasil pindaian printer 3-in-1, deh. Ketika perlu memindai sedikit dokumen dan menyiapkan _scanner_ terasa terlalu ribet, cara ini bisa jadi pilihan yang lebih baik.
 
 Salah satu aplikasi yang memiliki fitur pemindaian adalah Google Drive, yang merupakan aplikasi bawaan sebagian besar smartphone. Cukup buka aplikasi Google Drive dan tekan tombol **+** di kanan bawah. Lalu, tekan ikon Pindai (_Scan_) pada pilihan yang muncul. Arahkan kamera ke dokumen dan fotolah dokumen seperti biasa. Tidak perlu mengkhawatirkan orientasi dan kemiringan dokumen, karena nanti hal itu bisa diatur.
