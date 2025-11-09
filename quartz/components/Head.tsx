@@ -41,7 +41,7 @@ export default (() => {
         <title>{title}</title>
         <meta charSet="utf-8" />
 
-        // chartaseus gotta add these for now
+        {/*chartaseus gotta add these for now*/}
         <meta name="robots" content="noindex, nofollow"/>
         <meta name="referrer" content="same-origin"/>
 
