@@ -12,7 +12,7 @@ const config: QuartzConfig = {
     pageTitleSuffix: "",
     enableSPA: true,
     enablePopovers: true,
-    analytics: null,
+    analytics: { provider: 'goatcounter', websiteId: 'chartaseus' } ,
     locale: "en-US",
     baseUrl: "chartaseus.github.io",
     ignorePatterns: ["private", "templates", ".obsidian"],
