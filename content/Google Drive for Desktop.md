@@ -2,6 +2,7 @@
 draft: false
 published: 2018-12-07
 modified:
+  - 2025-11-16T09:09:16+07:00
   - 2025-11-06T15:06:11+07:00
 title: Backup file tugas kuliah atau pekerjaan secara otomatis
 description: Tidak perlu khawatir lupa backup dan sebagainya, karena ada cara supaya kamu bisa mengakses file-file Google Drive langsung lewat file explorer di komputermu.
@@ -14,7 +15,7 @@ publish: false
 
 _Edit 1 September 2023 – Instruksi dan screenshot diperbarui sesuai dengan versi Google Drive terbaru._
 
-[[#Menginstal Google Drive for Desktop|↓ Loncat ke tutorial]]
+[[#Menginstal Google Drive for Desktop|↓ Langsung ke tutorial]]
 
 Saat ini makin banyak orang yang menggemari _cloud storage_ karena tidak makan tempat di _hard drive_ komputer, lebih mudah di-_share_ dan dikolaborasikan, serta menghindarkan dari musibah kehilangan file yang rawan terjadi jika hanya disimpan di komputer.
 
