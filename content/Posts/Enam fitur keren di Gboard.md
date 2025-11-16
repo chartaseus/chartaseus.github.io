@@ -2,6 +2,7 @@
 draft: false
 published: 2018-12-19
 modified:
+  - 2025-11-16T16:23:29+07:00
   - 2025-11-09T19:14:28+07:00
   - 2025-11-07T05:13:09+07:00
 title: 6 fitur keren di Gboard
@@ -23,7 +24,7 @@ Ketika menjelajahi fitur-fitur Gboard, saya menemukan bahwa ternyata banyak juga
 3. ***Edit mode***
     Kalau kamu cuma sedang ingin mengedit dan tidak mengetik, kamu bisa mengubah keyboard menjadi fasilitas editing yang memberi kemudahan memindahkan kursor, menyalin dan menempel teks. Tekan ikon Google di kiri atas G-board, lalu tekan ikon yang mirip huruf I. Papan ketik akan digantikan oleh tombol panah ke atas, bawah, kiri, dan kanan, seperti yang ada di keyboard komputer, Tombol Pilih, Salin, dan Tempel, serta tombol untuk memindahkan kursor ke awal teks dan ke akhir teks, seperti tombol `Pg Up` dan `Pg Dn` di komputer. Fitur ini memudahkan jika kamu ingin mengorganisir teks panjang. Untuk kembali ke papan ketik normal, cukup tekan tombol panah di sudut kiri atas.
     <figure>
-		<img src="./files/img_20181204_0337086180462713194454556.jpg" alt="">
+		<img src="../files/edit-mode.jpg" alt="">
 		<figcaption></figcaption>
 	</figure>
 4. **Simbol-simbol yang jarang diketahui**

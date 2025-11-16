@@ -2,7 +2,7 @@
 draft: false
 published: 2018-12-07
 modified:
-  - 2025-11-16T09:09:16+07:00
+  - 2025-11-16T16:26:09+07:00
   - 2025-11-06T15:06:11+07:00
 title: Backup file tugas kuliah atau pekerjaan secara otomatis
 description: Tidak perlu khawatir lupa backup dan sebagainya, karena ada cara supaya kamu bisa mengakses file-file Google Drive langsung lewat file explorer di komputermu.
@@ -30,14 +30,14 @@ _==(Google Drive for Desktop hanya tersedia untuk Windows 10 atau yang lebih bar
 Kunjungi [google.com/drive/download/](https://google.com/drive/download/) menggunakan komputer atau laptop, dan klik tombol **Download Drive untuk desktop**.
 
 <figure>
-	<img src="./files/screenshot-2023-09-01-144801-edited-3.png" alt="">
+	<img src="../files/screenshot-2023-09-01-144801-edited-3.png" alt="">
 	<figcaption></figcaption>
 </figure>
 
 Tunggu hingga _installer_ selesai terdownload, kemudian buka file _GoogleDriveSetup.exe_ yang sudah terdownload dan ikuti perintah instalasi aplikasi.
 
 <figure>
-	<img src="./files/image.png" alt="">
+	<img src="../files/image.png" alt="">
 	<figcaption>klik <strong>Install</strong></figcaption>
 </figure>
 
@@ -45,11 +45,11 @@ Jika Google Drive for Desktop sudah berhasil diinstal, klik tombol **Launch** da
 
 <figure style="display:flex;gap:1em">
 	<div>
-		<img src="./files/image-1.png" alt="">
+		<img src="../files/image-1.png" alt="">
 		<figcaption></figcaption>
 	</div>
 	<div>
-		<img src="./files/image-2.png" alt="">
+		<img src="../files/image-2.png" alt="">
 		<figcaption></figcaption>
 	</div>
 </figure>
@@ -64,14 +64,14 @@ Dengan mengeklik **Sign in with browser**, halaman login akan terbuka di browser
 Login dengan email dan password akun Google Drive kamu, atau jika diperintahkan untuk memilih dari beberapa akun Google, pilih akun yang kamu gunakan untuk Google Drive. Setelah login berhasil, tutup browser yang baru saja digunakan untuk login. Dalam beberapa saat, akan muncul ikon Google Drive di taskbar.
 
 <figure>
-	<img src="./files/screenshot-2023-09-01-152507.png" alt="">
+	<img src="../files/screenshot-2023-09-01-152507.png" alt="">
 	<figcaption></figcaption>
 </figure>
 
 Dengan mengeklik ikon tersebut, kamu bisa melihat file-file yang terakhir kamu kerjakan, mencari file, dan mengubah setelan aplikasi Google Drive.
 
 <figure>
-	<img src="./files/navigasi-google-drive-for-desktop.png" alt="">
+	<img src="../files/navigasi-google-drive-for-desktop.png" alt="">
 	<figcaption></figcaption>
 </figure>
 
@@ -80,7 +80,7 @@ Untuk mengubah setelan, klik ikon roda gigi ⚙️ di sudut kanan atas. Untuk me
 Buka File Explorer seperti yang kamu lakukan jika ingin mencari file di komputer. Google Drive akan ditampilkan sebagai salah satu _storage_ bersama _hard drive_ dan _storage_ lainnya di komputer.
 
 <figure>
-	<img src="./files/image-5.png" alt="">
+	<img src="../files/image-5.png" alt="">
 	<figcaption></figcaption>
 </figure>
 
@@ -93,7 +93,7 @@ Kalau kamu mencoba membuka file dengan ekstensi _.gdoc, .gsheet_, dan file-file 
 Jika tidak selalu memiliki akses internet, kamu bisa menyimpan file-file yang sedang kamu kerjakan saat ini secara offline sehingga bisa diakses kapan saja tanpa koneksi internet. Editan terbarumu yang tersimpan di komputer akan langsung tersinkronisasi ke Google Drive ketika komputermu terhubung dengan internet. Cara mengatur agar file dapat diakses secara offline (lakukan ini saat masih terhubung dengan internet) adalah dengan klik kanan file yang diinginkan, arahkan kursor ke menu **Offline access** (atau klik **More options** dulu jika menu belum tampil), lalu klik **Available Offline** sehingga tercentang. File yang tersimpan offline akan ditandai dengan centang hijau pada ikonnya.
 
 <figure>
-	<img src="./files/file-options-1-1.png" alt="">
+	<img src="../files/file-options-1-1.png" alt="">
 	<figcaption>Agar file dapat diakses tanpa koneksi internet: klik kanan pada file → <em>Offline access</em> → <em>Available offline</em></figcaption>
 </figure>
 
