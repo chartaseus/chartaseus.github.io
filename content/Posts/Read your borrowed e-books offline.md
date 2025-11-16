@@ -2,6 +2,7 @@
 draft: false
 published: 2018-12-03
 modified:
+  - 2025-11-16T16:30:06+07:00
   - 2025-11-09T19:39:24+07:00
   - 2025-11-06T04:49:59+07:00
   - 2025-11-05T17:07:47+07:00
@@ -17,14 +18,14 @@ So you have found the book you want to read and you just borrowed them from [ope
 So now you are on this screen.
 
 <figure>
-	<img src="./files/screenshot_2018-12-02-the-view-from-saturday.png" alt="Screenshot of an online book reader interface showing a spread of a scanned book. There is a seekbar at the bottom.">
+	<img src="../files/screenshot_2018-12-02-the-view-from-saturday.png" alt="Screenshot of an online book reader interface showing a spread of a scanned book. There is a seekbar at the bottom.">
 	<figcaption>Internet Archive BookReader</figcaption>
 </figure>
 
 You should see a **download PDF/ePub** button on the top bar. When you click that, you will see the button to download the encrypted PDF of the book and another button to download the encrypted ePub file. But it will not give you the PDF or ePub file right away. This is where you need Adobe Digital Editions.
 
 <figure>
-	<img src="./files/screenshot_2018-12-02-the-view-from-saturday1.png" alt="">
+	<img src="../files/screenshot_2018-12-02-the-view-from-saturday1.png" alt="">
 	<figcaption></figcaption>
 </figure>
 

@@ -2,6 +2,7 @@
 draft: false
 published: 2021-09-28
 modified:
+  - 2025-11-16T16:29:33+07:00
   - 2025-11-09T19:35:10+07:00
   - 2025-11-08T08:32:44+07:00
 title: Mengelola file Office dan Google Docs di Google Drive
@@ -17,7 +18,7 @@ publish: false
 Buka [drive.google.com](http://drive.google.com) lalu login dengan akun Google, email kerja, atau SSO perusahaan.
 
 <figure>
-	<img src="./files/Untitled.webp" alt="">
+	<img src="../files/Untitled.webp" alt="">
 	<figcaption>Tampilan Google Drive</figcaption>
 </figure>
 
@@ -50,16 +51,16 @@ File Microsoft Office dapat berubah formatting-nya jika diedit menggunakan Googl
 
 Berikut adalah perbedaan file-file Google Docs dan Microsoft Office:
 
-| **Microsoft Office** | **Google Docs** |
-|--|--|
-| ![[Untitled 1.webp\|250]] | ![[Untitled 2.webp\|250]] |
+| **Microsoft Office**                                                                                                                                                                      | **Google Docs**                                                                                           |
+| ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------- |
+| ![[Untitled 1.webp\|250]]                                                                                                                                                                 | ![[Untitled 2.webp\|250]]                                                                                 |
 | Secara default, file Microsoft Office jika diupload ke Google Drive akan mempertahankan ekstensi (.docx, .xlsx, .pptx) dalam nama filenya, contoh: *Panduan.docx* atau *Perhitungan.xlsx* | File-file Google Docs bisa langsung dibaca dan diedit di web browser oleh siapa saja yang memiliki akses. |
 
 %%
 **Microsoft Office**
 
 <figure>
-	<img src="./files/untitled%201.webp" alt="">
+	<img src="../files/untitled%201.webp" alt="">
 	<figcaption>Ikon Microsoft Office</figcaption>
 </figure>
 
@@ -68,7 +69,7 @@ Secara default, file Microsoft Office jika diupload ke Google Drive akan mempert
 **Google Docs**
 
 <figure>
-	<img src="./files/untitled%202.webp" alt="">
+	<img src="../files/untitled%202.webp" alt="">
 	<figcaption>Ikon Google Docs</figcaption>
 </figure>
 
@@ -119,4 +120,4 @@ Di Google Drive, klik dua kali file Google Docs. File akan terbuka di Google Dok
 >[!tip]+
 >Cara [mendownload, mencetak, atau mengirimkan file Google Docs sebagai file Office](https://support.google.com/a/users/answer/9306091?hl=id)
 
-Baca juga: [[Google Drive for Desktop|Mem-backup file secara otomatis dari komputer ke Google Drive]]
+Baca juga [[Google Drive for Desktop|cara mem-backup file secara otomatis dari komputer ke Google Drive]].

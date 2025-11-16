@@ -2,6 +2,7 @@
 draft: false
 published: 2019-02-14
 modified:
+  - 2025-11-16T16:21:45+07:00
   - 2025-11-09T19:40:52+07:00
   - 2025-11-06T14:25:40+07:00
 title: Scan dokumen dengan smartphone
@@ -19,7 +20,7 @@ Salah satu aplikasi yang memiliki fitur pemindaian adalah Google Drive, yang mer
 Di layar berikutnya, akan muncul hasil pindaian dokumenmu. Aplikasi sudah memangkasnya secara otomatis, tetapi seringkali deteksinya kurang tepat. Tidak masalah, ini bisa diperbaiki. Tekan ikon pangkas (_crop_) di jajaran ikon di panel atas. Kamu bisa mengatur kembali posisi ujung-ujung dokumen yang masih kurang pas.
 
 <figure>
-	<img src="./files/7rxtzv39.jpg-medium.jpg" alt="">
+	<img src="../files/panel-atas-pratinjau.jpg" alt="">
 	<figcaption>Beberapa menu di panel atas pratinjau Google Drive scan</figcaption>
 </figure>
 

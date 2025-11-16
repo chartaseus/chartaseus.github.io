@@ -10,10 +10,11 @@ tags:
 draft: false
 published: 2025-11-04
 modified:
+  - 2025-11-16T16:32:24+07:00
   - 2025-11-09T19:24:10+07:00
   - 2025-11-05T18:39:47+07:00
 ---
-this is a page to test all the features(?), styles, and formatting I’m using throughout the site. inspired by [Gwern.net](https://gwern.net/lorem). most examples are copied from Obsidian sandbox vault.
+[a regular paragraph] this is a page to test all the features(?), styles, and formatting I’m using throughout the site. inspired by [Gwern.net](https://gwern.net/lorem). most examples are copied from Obsidian sandbox vault.
 
 [I removed heading 1 because there's supposed to be only one `<h1>` in a page and it's already covered by Quartz]
 
