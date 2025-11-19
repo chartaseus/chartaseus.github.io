@@ -9,6 +9,7 @@ modified:
 tags:
   - no-code
   - tutorial
+  - lang-english
 description: You have successfully borrow the ebook you want. Now what?
 ---
 So you have found the book you want to read and you just borrowed them from [openlibrary.org](https://href.li/?http://openlibrary.org). Now you are reading it online in your browser, because **Read Online** is the only button you see aside from **Return Book**. But you want to be able to continue reading when you are no longer connected to the internet. You actually can. There’s just a few more step–or a lot, but the many steps are just the first-time set up and you won’t have to repeat the hassle every time you borrow a new book please don’t close this page yet–
