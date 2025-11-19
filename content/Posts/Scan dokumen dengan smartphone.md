@@ -11,6 +11,7 @@ permalink:
 tags:
   - tutorial
   - no-code
+  - lang-bahasa-Indonesia
 publish: false
 ---
 Tahu nggak? Kamera smartphone bisa digunakan untuk memindai dokumen. Kalau kamera smartphonemu bisa memotret tulisan dengan jelas, tidak perlu khawatir, kualitas pindaiannya tidak akan kurang dari hasil pindaian printer 3-in-1, deh. Ketika perlu memindai sedikit dokumen dan menyiapkan _scanner_ terasa terlalu ribet, cara ini bisa jadi pilihan yang lebih baik.

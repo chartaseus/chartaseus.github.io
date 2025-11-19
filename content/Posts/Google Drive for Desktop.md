@@ -10,6 +10,7 @@ permalink:
 tags:
   - tutorial
   - no-code
+  - lang-bahasa-Indonesia
 publish: false
 ---
 

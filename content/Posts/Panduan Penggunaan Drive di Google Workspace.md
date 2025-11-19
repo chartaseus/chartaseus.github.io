@@ -11,6 +11,7 @@ permalink: google-drive-workspace
 tags:
   - tips-and-trick
   - no-code
+  - lang-bahasa-Indonesia
 publish: false
 ---
 ## Akses Google Drive

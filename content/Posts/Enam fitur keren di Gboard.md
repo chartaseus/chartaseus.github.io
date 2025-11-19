@@ -10,6 +10,7 @@ description: Ternyata banyak juga hal-hal yang bisa dilakukan dengan Gboard, jug
 permalink: fitur-gboard
 tags:
   - tips-and-trick
+  - lang-bahasa-Indonesia
 publish: false
 ---
 Apakah kamu salah satu dari satu miliar pengguna Android yang menggunakan Gboard? Mungkin kamu bahkan tidak tahu nama aplikasi keyboard di ponselmu, karena sudah terpasang begitu saja sejak awal. Kemungkinan, keyboardmu adalah Gboard. Saya juga pakai Gboard karena sudah terpasang sejak awal di smartphone saya. Untungnya, Gboard punya tampilan yang elegan dan banyak fitur yang bisa dioptimalkan sesuai cara mengetik kita.
