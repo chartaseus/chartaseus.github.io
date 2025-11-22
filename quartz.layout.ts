@@ -8,17 +8,16 @@ export const sharedPageComponents: SharedLayout = {
   header: [],
   afterBody: [
     Component.RecentNotes({
-      limit: 3,
+      limit: 5,
       filter: (f: QuartzPluginData) => {
-        const omit = new Set(["content/index.md", "content/heading 1.md"])
-        return !omit.has(f.filePath?.toLowerCase() ?? "")
+        const omit = new Set(["index", "posts/index", "notes/index", "notes/heading-1"])
+        return !omit.has(f.slug?.toLowerCase() ?? "")
       },
     }),
   ],
   footer: Component.Footer({
     links: {
-      "Source code": "https://github.com/chartaseus/chartaseus.github.io",
-      // "Discord Community": "https://discord.gg/cRFFHYye7t",
+      // "Source code": "https://github.com/chartaseus/chartaseus.github.io",
     },
   }),
 }
@@ -51,7 +50,7 @@ export const defaultContentPageLayout: PageLayout = {
       title: "All Notes",
       folderDefaultState: "open",
       filterFn: (node) => {
-        const omit = new Set(["index", "heading-1"]) // filePath (lowercase & + extension)
+        const omit = new Set(["index"]) // filePath (lowercase & + extension)
         // can also use node.slug or by anything on node.data
         // note that node.data is only present for files that exist on disk
         // (e.g. implicit folder nodes that have no associated index.md)
