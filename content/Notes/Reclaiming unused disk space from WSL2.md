@@ -1,0 +1,26 @@
+---
+draft: true
+published:
+modified:
+  - 2025-11-26T15:42:55+07:00
+title: Reclaiming unused disk space from WSL2
+description:
+permalink:
+tags:
+publish: false
+---
+A few days ago I opened File Explorer and saw that my C: drive only have about 17 GB storage left. I found my virtual disk used by WSL2 has used 22GB of space. But when I ran `df -h /` in WSL, it only used 11GB. So there was a mysterious 11GB of memory neither used by WSL nor given back to Windows.
+1. Locate `ext4.vhdx`
+	Paste `%USERPROFILE%\AppData\Local\Packages\CanonicalGroupLimited.UbuntuonWindows_79rhkp1fndgsc\LocalState\` to File Explorer address bar. (In my case, I’ve migrated it to another folder)
+2. Run `df -h /` in WSL terminal. If there’s a large discrepancy between the size of `ext4.vhdx` and the actual used space in WSL, it needs to be manually reclaimed because it doesn’t shrink automatically. I did `diskpart` but it made no difference until I finally found the better solution
+3. Fist clean up WSL storage:
+	1. remove `.cache` and `/tmp`
+	2. remove repos you no longer use or at least delete their `node_modules`
+4. Now the key step: fill the unused spaces with zeroes
+```bash
+dd if=/dev/zero of=~/zeroes
+```
+	This process can take hours
+5. Run `sudo sync` then remove the zeroes `rm ~/zeroes`
+6. not sure what `sudo fstrim /` do, but I run it last time
+7. Now back to administrator command prompt and run `diskpart`
