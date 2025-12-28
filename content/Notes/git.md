@@ -8,7 +8,6 @@ description:
 permalink:
 tags:
   - git
-  - lang-english
 publish: false
 ---
 ## Undo pushed merge cos I meant to rebase
