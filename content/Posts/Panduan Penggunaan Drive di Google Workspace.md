@@ -2,6 +2,7 @@
 draft: false
 published: 2021-09-28
 modified:
+  - 2025-12-30T06:41:17+07:00
   - 2025-11-16T16:29:33+07:00
   - 2025-11-09T19:35:10+07:00
   - 2025-11-08T08:32:44+07:00
@@ -104,7 +105,10 @@ Berikut langkah-langkahnya:
 Google Drive for Desktop memungkinkan kita untuk mengelola file-file Google Drive melalui file explorer seolah file tersebut merupakan file lokal di komputer.
 
 >[!tip]
->[Pelajari cara menginstal dan menggunakan Google Drive for Desktop](https://support.google.com/a/users/answer/9967896)
+>
+[[Google Drive for Desktop|Pelajari cara menginstal dan menggunakan Google Drive for Desktop]]
+
+%%>[Pelajari cara menginstal dan menggunakan Google Drive for Desktop](https://support.google.com/a/users/answer/9967896)%%
 
 #### Edit di browser menggunakan Google Docs
 

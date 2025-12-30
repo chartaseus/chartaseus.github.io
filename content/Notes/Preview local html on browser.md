@@ -2,6 +2,7 @@
 draft: false
 published: 2025-04-18
 modified:
+  - 2025-12-30T07:05:36+07:00
   - 2025-11-18T18:00:11+07:00
 title: Preview local html on browser
 description:
@@ -32,4 +33,4 @@ I recently found a seemingly better alternative: `serve` is more actively mainta
 npm install -g serve
 ```
 
-and simply run `npx serve` from inside my project directory. Haven’t explored the features much but it covers the basics for me.
+and simply run `npx serve` from inside my project directory. Sadly it doesn’t auto-reload pages (watch changes) and doesn’t have much feature (which is a feature, right? I guess?). Nonetheless, it covers the basics for me.
