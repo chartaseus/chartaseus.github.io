@@ -14,7 +14,7 @@ const config: QuartzConfig = {
     enablePopovers: true,
     analytics: { provider: 'goatcounter', websiteId: 'chartaseus' } ,
     locale: "en-US",
-    baseUrl: "chartaseus.github.io",
+    baseUrl: "chartaseus.dev",
     ignorePatterns: ["private", "templates", ".obsidian"],
     defaultDateType: "published",
     theme: {
