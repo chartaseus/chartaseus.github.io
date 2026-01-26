@@ -53,12 +53,10 @@ git branch -d <branch name> # will error if branch hasn't been merged
 
 a.k.a. what I do when setting up multiple git accounts on a new OS
 
-1. generate an ssh key for each account following [this GitHub tutorial](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent). give it a name that represent the associated account, not just ”id_ed25519“
+1. generate an ssh key for each account following [this GitHub tutorial](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent). give it a name that represents the associated account, not just ”id_ed25519“
 2. create ssh config file:
 
-    ``` config
-    ## ~/.ssh/config
-    
+    ```ssh-config title="~/.ssh/config"
     # study
     Host study.github.com
         Hostname github.com
@@ -73,19 +71,16 @@ a.k.a. what I do when setting up multiple git accounts on a new OS
 
 3. create folder for each account, create separate config files for each account
 
-    ```
-    ## ~/.gitconfig-study
-    
+    ```properties title="~/.gitconfig-study"    
     [user]
       name = student
       email = student@users.noreply.github.com
       signingkey = ~/.ssh/id_ed25519-study.pub
     [url "git@study.github.com"]
       insteadOf = git@github.com
+    ```  
       
-      
-    ## ~/.gitconfig-play
-    
+    ```properties title="~/.gitconfig-play"
     [user]
       name = fun
       email = fun@users.noreply.github.com
@@ -96,20 +91,18 @@ a.k.a. what I do when setting up multiple git accounts on a new OS
 
 4. assign  each config to its respective directory
 
-    ``` config
-    ## ~/.gitconfig
-    
+    ```properties title="~/.gitconfig"
     [includeIf "gitdir:~/study/"]
       path = ~/.gitconfig-study
     [includeIf "gitdir:~/play/"]
       path = ~/.gitconfig-play
     [gpg]
-            format = ssh
+      format = ssh
     [init]
-            defaultBranch = main
+      defaultBranch = main
     [core]
-            editor = code --wait
-            autocrlf = input
+      editor = code --wait
+      autocrlf = input
     [pull]
-            rebase = true
+      rebase = true
     ```
