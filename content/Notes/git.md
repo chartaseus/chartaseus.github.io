@@ -2,6 +2,7 @@
 draft: false
 published: 2025-11-22
 modified:
+  - 2026-01-26T15:49:29+07:00
   - 2025-11-22T21:37:02+07:00
 title: Git cheatsheet
 description:
@@ -48,4 +49,67 @@ git branch -D <branch name> # -D means --delete --force
 git branch -d <branch name> # will error if branch hasn't been merged
 ```
 
-## [TODO] Git config essentials
+## Multi-account Git config essentials 
+
+a.k.a. what I do when setting up multiple git accounts on a new OS
+
+1. generate an ssh key for each account following [this GitHub tutorial](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent). give it a name that represent the associated account, not just ”id_ed25519“
+2. create ssh config file:
+
+    ``` config
+    ## ~/.ssh/config
+    
+    # study
+    Host study.github.com
+        Hostname github.com
+        PreferredAuthentications publickey
+        IdentityFile ~/.ssh/id_ed25519-study
+    # play
+    Host play.github.com
+        Hostname github.com
+        PreferredAuthentications publickey
+        IdentityFile ~/.ssh/id_ed25519-play
+	```
+
+3. create folder for each account, create separate config files for each account
+
+    ```
+    ## ~/.gitconfig-study
+    
+    [user]
+      name = student
+      email = student@users.noreply.github.com
+      signingkey = ~/.ssh/id_ed25519-study.pub
+    [url "git@study.github.com"]
+      insteadOf = git@github.com
+      
+      
+    ## ~/.gitconfig-play
+    
+    [user]
+      name = fun
+      email = fun@users.noreply.github.com
+      signingkey = ~/.ssh/id_ed25519-play.pub
+    [url "git@play.github.com"]
+      insteadOf = git@github.com
+    ```
+
+4. assign  each config to its respective directory
+
+    ``` config
+    ## ~/.gitconfig
+    
+    [includeIf "gitdir:~/study/"]
+      path = ~/.gitconfig-study
+    [includeIf "gitdir:~/play/"]
+      path = ~/.gitconfig-play
+    [gpg]
+            format = ssh
+    [init]
+            defaultBranch = main
+    [core]
+            editor = code --wait
+            autocrlf = input
+    [pull]
+            rebase = true
+    ```
