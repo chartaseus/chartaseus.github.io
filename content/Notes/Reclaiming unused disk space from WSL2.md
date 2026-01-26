@@ -2,6 +2,7 @@
 draft: false
 published: 2025-12-28
 modified:
+  - 2026-01-26T17:03:38+07:00
   - 2025-12-30T07:58:45+07:00
   - 2025-12-28T15:02:58+07:00
   - 2025-11-26T15:42:55+07:00
@@ -35,7 +36,7 @@ These are procedures that work for me:
 	```shell
 	wsl --shutdown
 	diskpart # open window Diskpart
-	select vdisk file="C:\WSL-Distros\…\ext4.vhdx"
+	select vdisk file="C:\WSL-Distros\your\path\to\ext4.vhdx"
 	attach vdisk readonly
 	compact vdisk
 	detach vdisk

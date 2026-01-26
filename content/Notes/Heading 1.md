@@ -10,6 +10,7 @@ tags:
 draft: false
 published: 2025-11-04
 modified:
+  - 2026-01-26T17:05:59+07:00
   - 2025-12-30T06:58:51+07:00
   - 2025-11-16T16:32:24+07:00
   - 2025-11-09T19:24:10+07:00
@@ -67,6 +68,10 @@ type BundledTheme = 'andromeeda' | 'aurora-x' | 'ayu-dark' | 'catppuccin-frappe'
 ```
 
     Text indented with a tab is formatted like this, and will also look like a code block in preview.
+
+### Inline code
+
+`sudo apt update && sudo apt upgrade -y{:sh}`
 
 ## Table
 
