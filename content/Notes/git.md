@@ -2,6 +2,7 @@
 draft: false
 published: 2025-11-22
 modified:
+  - 2026-02-26T09:41:36+07:00
   - 2026-01-26T17:07:05+07:00
   - 2025-11-22T21:37:02+07:00
 title: Git cheatsheet
@@ -24,6 +25,7 @@ publish: false
     ```
 4. [[#Rebase to `main`|rebase]] the new branch onto the main branch
     ```bash
+    git checkout main
     git rebase <new branch name>
     ```
 5. force push to origin
