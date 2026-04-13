@@ -2,7 +2,7 @@
 draft: false
 published: 2026-04-13
 modified:
-  - 2026-04-13T13:48:06+07:00
+  - 2026-04-13T15:08:15+07:00
 title: Cara membantu orang lain dalam menggunakan komputer.
 description: Terjemahan “How to help someone use a computer.” Membantu orang lain dalam menggunakan komputer tanpa mengintimidasi.
 permalink: how
@@ -11,7 +11,9 @@ tags:
   - lang-bahasa-Indonesia
 publish: false
 ---
-Pada umumnya, pegiat komputer adalah orang baik, tetapi tidak bisa dimungkiri bahwa mereka kerap tidak sengaja melakukan kesalahan dalam cara mereka “membantu” orang lain menyelesaikan masalah komputernya. Karena kita sedang berusaha mengajak orang-orang untuk menggunakan internet, saya pikir akan bermanfaat jika saya tuliskan di satu tempat segala hal yang telah diajarkan pada saya tentang cara membantu orang lain dalam mengoperasikan komputer.
+> Setiap kali mereka mulai menyalahkan diri sendiri, salahkan komputernya
+
+Pada umumnya, pegiat komputer adalah orang baik, tetapi tidak bisa dimungkiri bahwa mereka kerap tidak sengaja melakukan kesalahan dalam cara mereka “membantu” orang lain menyelesaikan masalah komputernya. Karena kita sedang berusaha mengajak orang-orang untuk menggunakan internet, saya pikir akan bermanfaat jika saya tuliskan di satu tempat segala hal yang telah diajarkan kepada saya tentang cara membantu orang lain dalam mengoperasikan komputer.
 
 Pertama, Anda harus mengingat-ingat hal-hal berikut:
 
@@ -35,9 +37,9 @@ Setelah meyakinkan diri akan hal-hal tersebut, Anda akan cenderung lebih mudah m
 * Perhatikan seberapa abstrak bahasa Anda. Contohnya, “Masuk ke editor” adalah abstrak sedangkan “Tekan tombol ini” itu konkret.
   Jangan katakan apa pun yang tidak akan mereka pahami. Teruslah sesuaikan bahasa Anda ke arah kalimat-kalimat konkret hingga mereka mulai paham, kemudian perlahan kembali ke arah abstraksi asalkan mereka bisa mengikutinya.
   Ketika merancang pekerjaan rumah (“ketika komputer jadi begini dan begitu, kamu perlu mengecek ini dan itu”), pastikan lagi bahwa Anda menggunakan bahasa dengan derajat abstraksi yang tepat untuk pengguna tersebut saat ini.
-* Kapanpun mereka mulai menyalahkan diri sendiri, salahkan komputernya, berapa kali pun sampai mereka percaya, dengan nada tenang dan otoritatif. Ketika mereka terjebak asumsi yang salah tentang perilaku komputer, katakan bahwa asumsi itu bisa dimaklumi. Katakan pada *diri Anda sendiri* bahwa itu bisa dimaklumi. Karena memang bisa dimaklumi.
+* ==Setiap kali mereka mulai menyalahkan diri sendiri, salahkan komputernya==, berapa kali pun sampai mereka percaya, dengan nada tenang dan otoritatif. Ketika mereka terjebak asumsi yang salah tentang perilaku komputer, katakan bahwa asumsi itu bisa dimaklumi. Katakan pada *diri Anda sendiri* bahwa itu bisa dimaklumi. Karena memang bisa dimaklumi.
 * Jangan pernah mengerjakan sesuatu untuk orang lain yang bisa mengerjakannya sendiri.
-* Jangan berkata “itu ada di buku petunjuknya”. (Anda mungkin tahu itu.)
+* Jangan berkata “itu ada di buku petunjuknya”. (Mungkin Anda sudah tahu.)
 
 ---
 
