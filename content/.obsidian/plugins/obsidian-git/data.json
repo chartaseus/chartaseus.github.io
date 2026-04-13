@@ -17,6 +17,7 @@
   "showStatusBar": true,
   "updateSubmodules": false,
   "syncMethod": "rebase",
+  "mergeStrategy": "none",
   "customMessageOnAutoBackup": false,
   "autoBackupAfterFileChange": false,
   "treeStructure": true,
@@ -34,6 +35,11 @@
   "authorInHistoryView": "hide",
   "dateInHistoryView": true,
   "diffStyle": "split",
+  "hunks": {
+    "showSigns": false,
+    "hunkCommands": false,
+    "statusBar": "disabled"
+  },
   "lineAuthor": {
     "show": true,
     "followMovement": "inactive",
@@ -55,7 +61,7 @@
     },
     "textColorCss": "var(--text-muted)",
     "ignoreWhitespace": false,
-    "gutterSpacingFallbackLength": 13,
+    "gutterSpacingFallbackLength": 12,
     "lastShownAuthorDisplay": "initials",
     "lastShownDateTimeFormatOptions": "date"
   }
