@@ -2,13 +2,16 @@
 draft: false
 published:
 modified:
-  - 2026-05-01T12:41:35+07:00
+  - 2026-05-01T13:25:24+07:00
 title:
 description:
 permalink:
 tags:
 publish: false
 ---
+## [Chord Transposer](https://chordtransposer.val.run)
+I found no tools for when I just want to transpose a few chord up and down, so I made the simplest chord transposer for myself. 
+
 ## [Bookshelf](https://chartaseus.dev/bookshelf/)
 Simple bookshelf app. A `localStorage` exercise.
 
