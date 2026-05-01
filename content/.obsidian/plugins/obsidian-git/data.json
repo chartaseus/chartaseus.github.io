@@ -32,13 +32,13 @@
   "submoduleRecurseCheckout": false,
   "gitDir": "",
   "showFileMenu": true,
-  "authorInHistoryView": "hide",
+  "authorInHistoryView": "initials",
   "dateInHistoryView": true,
   "diffStyle": "split",
   "hunks": {
-    "showSigns": false,
-    "hunkCommands": false,
-    "statusBar": "disabled"
+    "showSigns": true,
+    "hunkCommands": true,
+    "statusBar": "colored"
   },
   "lineAuthor": {
     "show": true,
@@ -61,7 +61,7 @@
     },
     "textColorCss": "var(--text-muted)",
     "ignoreWhitespace": false,
-    "gutterSpacingFallbackLength": 12,
+    "gutterSpacingFallbackLength": 13,
     "lastShownAuthorDisplay": "initials",
     "lastShownDateTimeFormatOptions": "date"
   }
