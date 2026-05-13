@@ -3,7 +3,7 @@ draft: false
 published:
 modified:
   - 2026-05-01T13:25:24+07:00
-title:
+title: Projects
 description:
 permalink:
 tags:
