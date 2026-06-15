@@ -2,6 +2,7 @@
 draft: false
 published: 2018-12-07
 modified:
+  - 2026-06-15T08:45:32+07:00
   - 2025-11-16T16:26:09+07:00
   - 2025-11-06T15:06:11+07:00
 title: Backup file tugas kuliah atau pekerjaan secara otomatis
@@ -13,7 +14,6 @@ tags:
   - lang-bahasa-Indonesia
 publish: false
 ---
-
 _Edit 1 September 2023 – Instruksi dan screenshot diperbarui sesuai dengan versi Google Drive terbaru._
 
 [[#Menginstal Google Drive for Desktop|↓ Langsung ke tutorial]]
@@ -58,7 +58,7 @@ Jika Google Drive for Desktop sudah berhasil diinstal, klik tombol **Launch** da
 Dengan mengeklik **Sign in with browser**, halaman login akan terbuka di browser default kamu.
 
 <figure>
-	<img src="./files/image-3.png" alt="">
+	<img src="../files/image-3.png" alt="">
 	<figcaption></figcaption>
 </figure>
 
