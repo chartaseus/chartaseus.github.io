@@ -2,6 +2,7 @@
 draft: false
 published: 2021-09-28
 modified:
+  - 2026-06-15T08:48:48+07:00
   - 2025-12-30T06:41:17+07:00
   - 2025-11-16T16:29:33+07:00
   - 2025-11-09T19:35:10+07:00
@@ -106,7 +107,7 @@ Google Drive for Desktop memungkinkan kita untuk mengelola file-file Google Driv
 
 >[!tip]
 >
-[[Google Drive for Desktop|Pelajari cara menginstal dan menggunakan Google Drive for Desktop]]
+>[[Google Drive for Desktop|Pelajari cara menginstal dan menggunakan Google Drive for Desktop]]
 
 %%>[Pelajari cara menginstal dan menggunakan Google Drive for Desktop](https://support.google.com/a/users/answer/9967896)%%
 

@@ -5,7 +5,7 @@ modified:
   - 2025-11-16T16:23:29+07:00
   - 2025-11-09T19:14:28+07:00
   - 2025-11-07T05:13:09+07:00
-title: 6 fitur keren di Gboard
+title: Enam fitur keren di Gboard
 description: Ternyata banyak juga hal-hal yang bisa dilakukan dengan Gboard, juga fitur-fitur yang menunjang produktivitas. Dalam post ini, saya ingin berbagi beberapa fitur dan trik yang saya temukan.
 permalink: fitur-gboard
 tags:
