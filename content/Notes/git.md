@@ -2,6 +2,7 @@
 draft: false
 published: 2025-11-22
 modified:
+  - 2026-10-06T09:01:26+07:00
   - 2026-02-26T09:41:36+07:00
   - 2026-01-26T17:07:05+07:00
   - 2025-11-22T21:37:02+07:00
@@ -108,3 +109,19 @@ a.k.a. what I do when setting up multiple git accounts on a new OS
     [pull]
       rebase = true
     ```
+
+## Change commit author name and email on past commits
+
+Sometimes, for some reason, I have my config email set to `automation@github.io` or whatever and forget to change that for the new project I’m working on. This can change commit author name and email on past commits with certain email without modifying the timestamp. ([Source](https://git-scm.com/book/en/v2/Git-Tools-Rewriting-History#_changing_email_addresses_globally))
+
+```bash
+$ git filter-branch --commit-filter '
+	if [ "$GIT_AUTHOR_EMAIL" = "automation@whatever.io" ];
+	then
+		GIT_AUTHOR_NAME="Correct Name";
+		GIT_AUTHOR_EMAIL="correctemail@example.com";
+		git commit-tree "$@";
+	else
+		git commit-tree "$@";
+	fi' HEAD
+```
