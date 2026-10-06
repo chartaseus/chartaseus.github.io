@@ -21,9 +21,9 @@ const config: QuartzConfig = {
       fontOrigin: "googleFonts",
       cdnCaching: true,
       typography: {
-        title: "Capriola",
-        header: "Fraunces",
-        body: "Fraunces",
+        title: "Bricolage Grotesque",
+        header: "Bricolage Grotesque",
+        body: "Bricolage Grotesque",
         code: "Google Sans Code",
       },
       colors: {
